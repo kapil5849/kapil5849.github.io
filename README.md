@@ -8,15 +8,15 @@ I am an engineering student and studying electrical. Nowadays, I'm interested in
 ## Skills
 
 <p align='left'>
-  <img src="https://o.remove.bg/downloads/8f7e5ffc-8aea-49ef-86ec-307fe89e6aba/image-removebg-preview.png" alt="dsa" width="100" height="100"/>
-  <img src="https://o.remove.bg/downloads/5939fed9-8d5a-46da-98bf-94cf4bea927d/image-removebg-preview.png" alt="dsa" width="100" height="100"/>
+  
+  <img src="http://inspireclasses.com/wp-content/uploads/2019/01/ds.png" alt="data" width="100" height="100"/>
+  <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/21/54dd30f05e11e59bf9d905b70dcbd9/cs161logo2.png?auto=format%2Ccompress&dpr=1" alt="algo" width="100" height="100"/>
   <img src='https://cdn.uconnectlabs.com/wp-content/uploads/sites/25/2020/04/J.png' height='100' width='auto' alt="js">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="html" width="100" height="100">
   <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png' alt="css" width="100" height="100">
 
 </p>
 
----
 
 ## Experience
 
