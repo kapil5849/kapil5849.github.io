@@ -29,6 +29,10 @@ I am an engineering student and studying electrical. Nowadays, I'm interested in
 ### **UNIVERSITY DEPARTMENT,RAJASTHAN TECHNICLE UNIVERSITY,KOTA**
 ### BTech Electrical Engineering (2020- 2024)
 CURRENT GPA 9.03
+-
+### **RBSE,BOARD**
+### 10th : 82.83%
+### 12th : 78.80% [MCP]
 
 ---
 
