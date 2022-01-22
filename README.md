@@ -1,2 +1,2 @@
-# kapil5849.github.io
+# kapil.github.io
 Personal website 
