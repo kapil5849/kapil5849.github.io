@@ -10,10 +10,9 @@ I am an engineering student and studying electrical. Nowadays, I'm interested in
 <p align='left'>
   <img src="https://o.remove.bg/downloads/8f7e5ffc-8aea-49ef-86ec-307fe89e6aba/image-removebg-preview.png" alt="dsa" width="100" height="100"/>
   <img src="https://o.remove.bg/downloads/5939fed9-8d5a-46da-98bf-94cf4bea927d/image-removebg-preview.png" alt="dsa" width="100" height="100"/>
+  <img src='https://cdn.uconnectlabs.com/wp-content/uploads/sites/25/2020/04/J.png' height='100' width='auto' alt="js">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="html" width="100" height="100">
   <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png' alt="css" width="100" height="100">
-  <img src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' height='100' width='auto' alt="js">
-   
 
 </p>
 
