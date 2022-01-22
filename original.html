@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinosaur Leaner</title>
+  <!-- slide -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <!-- slide -->
+</head>
+
+<style>
+  body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ebedee;
+}
+
+element.style {
+  font-size: 2.5rem;
+}
+header {
+  padding: 20px 0;
+  background: repeating-linear-gradient(45deg, #f0f2ed, #f0f2ed 20px, #f8f4eb 20px, #f8f4eb 40px);
+  box-shadow: 0 4px 6px rgba(0,0,0,.2);
+}
+element.sytle{
+  justify-content: space-between;
+  display: flex;
+}
+.container {
+  padding: 0 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.logo-box {
+  float: left;
+  margin-right: 20px;
+}
+.logo-box a {
+  outline: none;
+  display: block;
+}
+.logo-box img {display: block;}
+nav {
+  overflow: hidden;
+}
+section {
+  min-height: 100vh;
+}
+.videocontrol{
+  width: auto;
+}
+.resize {
+  width: 80px;
+  height: auto;
+}
+.size{
+  width: auto;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+  height: 70px;
+  line-height: 70px;
+  transition: .5s linear;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: #868686;
+  text-transform: uppercase;
+}
+nav a:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  background: #868686;
+  transition: width .5s linear;  
+}
+nav a:hover:after {width: 100%;}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.whatsapp{
+/* border : 1px solid red; */
+  display: inline-block;
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  z-index: 10;
+}
+
+.whatsapp img{
+  height: 80px;
+  width: 80px;
+}
+
+.girl{
+  height: 400px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+div {
+  display: block;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.pb-5, .py-5 {
+  padding-bottom: 3rem!important;
+}
+.pt-5, .py-5 {
+  padding-top: 3rem!important;
+}
+.align-items-center {
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+.justify-content-between {
+  -ms-flex-pack: justify!important;
+  justify-content: space-between!important;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.col, .col-md-6{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.h1, h1 {
+  font-size: 1.75rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.font-weight-bold {
+  font-weight: 700!important;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.h1, h1 {
+  font-size: 2.5rem;
+}
+
+.d-none {
+  display: none!important;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1
+rem
+;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.text-right {
+  text-align: right!important;
+}
+
+.mt-5, .my-5 {
+  margin-top: 3rem!important;
+}
+
+/* slide quote css */
+
+html,body {
+  position: relative;
+    height: 100%;
+  }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+ 
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #e55c4c;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center; 
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    } 
+
+    section.quote{
+        background:#e55c4c;
+        border-left:20px solid #e55c4c;
+        border-right:20px solid #e55c4c;
+        border-bottom:20px solid #e55c4c;
+        border-top:20px solid #e55c4c;
+    }
+    .quotes_img {
+        width:150px !important;
+        margin-top:10px !important;
+        margin-bottom:10px !important;
+        border-radius:50%;
+        border-style:none;
+        border: 0px solid !important;
+        position: relative;
+    }
+
+    section .swiper-slide{
+        background-color: #e55c4c;
+    }
+    section.quotes p {
+        text-align:center;
+        color:#f2f2f2;
+        margin:0 auto;
+        margin-top:20px;
+        margin-bottom:20px;
+        font-size:21px;
+    }
+    section.quotes h1 {
+        color:#fff;
+        font-family:'ProximaNovaT';
+        font: size 50px;
+        margin-top:150px;
+        text-align: center;
+    }
+    section.quotes h2 {
+        color:#fff;
+        font-family:serif;
+        font-style:italic;
+        font-size:32px;
+        margin-top:40px;
+    }
+    
+    section.quotes h1 {
+	    font-size: 30px;
+	    margin-top: 30px;
+    }
+
+    section.quotes h2 {
+        font-size: 12px;
+	    margin-top: 20px;
+        text-align: center;
+    }
+
+    section.quotes p {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    h1 {
+        font-family: cursive;
+        color: black;
+        font-size:3.5em;
+    } 
+
+    h2 {
+        font-family: cursive;
+        color: black;
+        font-size:1.4em;
+    }
+    h1, h2 {
+        font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        color: black;
+        text-rendering: optimizeLegibility;
+        margin-top: 0.2rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.4; 
+    }
+    p {
+        font-family:"Gill Sans", sans-serif;
+        font-size:30px;
+        color:#3a3a3a;
+        font-size:1.3em;
+        text-align:center;
+    }
+    .swiper{
+        text-align: center;
+    }
+    .p desc{
+        font-size: 1000px;
+        text-align: center;
+    }
+    .swiper-pagination :hover{
+        background-color: #ffffff;
+    }
+    .swiper-button-next{
+        color: #ffffff;
+    }
+     
+       .swiper-button-prev{
+        color: #ffffff;
+    }
+
+/* slide quote css */
+
+.formfill{
+  font-size: 70px;
+  font-family: cursive;
+  color: black;
+  text-align: center;
+}
+
+/* css of product */
+
+p{
+      /* margin-left: 10px; */
+      font-size: 20px;
+      text-align: center;
+
+    }
+    /* .kapilimg{
+      width: 100px;
+      height: auto;
+
+    } */
+  section.my{
+    background:#e55c4c;
+    border-left:20px solid #e55c4c;
+    border-right:20px solid #e55c4c;
+    border-bottom:20px solid #e55c4c;
+    border-top:20px solid #e55c4c;
+  }
+  h2{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+  }
+  .kapilimg{
+    width:350px !important;
+    margin-top:10px !important;
+    margin-bottom:10px !important;
+    border-radius:70%;
+    border-style:none;
+    border: 0px solid !important;
+    position: relative;
+    margin-left: 38%;
+  }
+  .formdiv{
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(5, 0, 8);
+    align-items: center;
+  }
+
+  .formbut{
+    position: absolute;
+    display: block;
+    width: 25%;
+    border:  2px solid #4CAF50;
+    border-radius: 50px;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 36%;
+    margin-bottom: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-top: 50px;
+  }
+
+  .formbut:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .downpdf {
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(5, 0, 8);
+    align-items: center;
+  }
+
+  .downbutton {
+    position: absolute;
+    display: block;
+    width: 25%;
+    border:  2px solid #4CAF50;
+    border-radius: 20px;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 36%;
+    margin-bottom: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  .downbutton:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .intro{
+        --tw-text-opacity: 1;
+        color: rgb(20, 2, 2,var(--tw-text-opacity));
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        font-family: IBM Plex Sans,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+        margin-top: 4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 60px;
+        font-weight: inherit;
+    }
+    .name{
+        --tw-text-opacity: 1;
+        color: rgba(20,2,2,var(--tw-text-opacity));
+        font-size: 1.75rem;
+        line-height: 1rem;
+        text-align: left;
+        justify-content: flex-end;
+        padding: 5px;
+        text-align: var();
+        margin-left: 20px;
+        color: black;
+        margin-top: 50px;
+    }
+    .originalgif{
+      width: 90%;
+      height: 60%;
+      margin-left: 5%;
+    }
+
+/* css of product */
+
+
+/* css of footer */
+
+.footshow{
+        background-color: #ebedee;
+        
+    }
+    .footsa{
+        margin-bottom: 10px;
+        align-items: center;
+        width: auto;
+        height: auto;
+         margin-left: 25%;
+    }
+    .copy{
+        text-align: center;
+        font-family: cursive;
+        font-size: 30px;
+    }
+    .copy1{
+        text-align: center;
+        font-family: "Gill Sans", sans-serif;
+        font-size: 30px;
+    }
+    .copy2{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: system-ui;
+    }
+    .linkimg{
+        width: 80px;
+        height: auto;
+    }
+    .twittimg{
+        width: 80px;
+        margin-bottom: 10px;
+        height: auto;
+    }
+    .copytext1{
+        color: rgb(55, 199, 204);
+        font-weight: bold;
+        font-family: cursive;
+    }
+
+
+/* css of footer */
+
+</style>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo-box">
+            <a href="/">
+              <img class="resize" src="/img/logo.png">
+            </a>
+          </div>
+          <nav>
+          <ul class="size">
+            <li><a href="">home </a></li>
+            <li><a href="">work</a></li>
+            <li><a href="">product</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+         </ul>
+        </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row justify-content-between align-items-center py-5">
+          <div class="col md-6">
+            <h1>Learn Trading 🚀<h1>
+            <h1 class="display-4 heading font-weight-bold responsive-class" style="font-size: 2.5rem;">
+              Investing AND CRYPTO
+            </h1>
+            <p class="lead d-none d-md-block">
+              <h2> IN HINGLISH! </h2>
+            </p>
+          </div>
+          <div class="col mt-5 sm-3 md-6 self-align-bottom text-right">
+            <img src="/img/homeFront.png" class="girl"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="whatsapp">
+        <a href="https://wa.me/918112263958" target="_blank">
+        <img class="whsize" src="/img/whatsapp.png">
+        </a>
+    </div>
+
+<!-- html of quote -->
+    <section class="quote">
+      <div class="swiper mySwiper">
+          <h1>Inspiring Quotes.</h1>
+          <p><br class="ProseMirror-trailingBreak"></p>
+          <p>
+          </p>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <li style="width: 25%;">
+                  <img class="quotes_img" src="/img/sundar.png" alt="sundar sir" />
+                  <h2 class="quotelines">" Academics is important but not everything. Take risks, <br>
+                      try different things, follow your passion. "</h2>
+                  <p class="desc">
+                    by <b>Sundar Pichai</b>
+                  </p>
+              </li>
+            </div>
+            <div class="swiper-slide">
+              <li style="width: 25%;">
+                  <img class="quotes_img" src="/img/warren.png" alt="warren sir" />
+                  <h2 class="quotelines">" If you buy things you do not need, soon you will <br>
+                      have to sell things you need. "</h2>
+                  <p class="desc">
+                    by <b>Warren buffet</b>
+                  </p>
+                </li>
+            </div>
+            <div class="swiper-slide">
+              <li style="width: 25%;">
+                  <img class="quotes_img" src="/img/elon.png" alt="elon sir" />
+                  <h2 class="quotelines">" When something is important enough, you do it even <br>
+                      if the odds are not in your favor."</h2>
+                  <p class="desc">
+                    by <b>Elon musk</b>
+                  </p>
+                </li>
+            </div>
+            <div class="swiper-slide">
+              <li style="width: 25%;">
+                  <img class="quotes_img" src="/img/jim.png" alt="Jim sir" />
+                  <h2 class="quotelines">" Past performance is the best predictor of success. " <br> </h2>
+                  <p class="desc">
+                    by <b>Jim Simons</b>
+                  </p>
+                </li>
+            </div>
+          </div>
+          <p><br class="ProseMirror-trailingBreak"></p>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+  </section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+</script>
+<!-- html of quote -->
+
+<!-- html of product -->
+<section>
+      <div class="start">
+        <div class="line">
+          <h1 class="intro">
+            Trading,Investing AND CRYPTO
+          </h1>
+          <div class="refer">
+            <div class="name">
+              By <!-- -->Kapil Vaishnav
+            </div>
+          </div>
+       </div>
+       <p><br class="ProseMirror-trailingBreak"></p>
+        <div class="gif1">
+          <img class="originalgif" src="/img/courseGif.gif" alt="">
+        </div>
+      </div>
+
+      <p><br class="ProseMirror-trailingBreak"></p>
+
+  <div class="downpdf">
+    <button class="downbutton">
+      <span>
+        <a href="/pdf/our course.pdf" target="_blank">
+            <span>
+                Download Course PDF
+            </span>
+        </a>
+    </span>
+    </button>
+  </div>
+
+  <p><br class="ProseMirror-trailingBreak"></p>
+  <p><br class="ProseMirror-trailingBreak"></p>
+
+  <div>
+    <div>
+        <p><strong>Hey There, I'm Kapil</strong></p>
+        <p>
+            I am an engineering student and studying electrical.
+            Nowadays I work in the market And <br> try to build tools through technology.
+            AND finally want to do some adventure for humanity, <br> like renewable energy,
+            climate change and more cool stuff that bothers me.
+        </p>
+        <p><br class="ProseMirror-trailingBreak"></p>
+        <p><strong>The Goal</strong></p>
+        <p>
+            I plan to make this an engaging and digestible structured way to understand market trading.
+        </p>
+        <p><br class="ProseMirror-trailingBreak"></p>
+        <p><strong>Content</strong></p>
+        <p>
+            This course will cover investing, trading techniques, IPO applications and crypto as well. <br>
+            By the end of this course you will be comfortable with enough content to confidently <br> visit sites like Zerodha, Angle etc.
+        </p>
+        <p><br class="ProseMirror-trailingBreak"></p>
+        <p><strong>Why This course</strong></p>
+        <p>
+            Most beginners let's face it, YouTube and Telegram tutorials are boring. 
+            This course will be <br> very different than the others. As, I am going to use 
+            my content creation skills to make <br> the content more enjoyable and watchable.
+        </p>
+        <p><br class="ProseMirror-trailingBreak"></p>
+    </div>
+</div>
+</section>
+<!-- html of product -->
+
+<!-- html of about -->
+    <section class="aboutme">
+    <div>
+      <section class="my">
+          <h2>Instructor</h2>
+          <div>
+              <img class="kapilimg" src="/img/kapil.jpg" alt="kapil Vaishnav">
+              <p>Kapil Vaishnav</p>
+          </div>
+          <p>Engineering student,Content Creator,Trader AND Educator</p>
+          <p>
+            “I'm selfish, impatient and a little insecure. I make mistakes, <br> I am out of control and at times hard to handle. <br> But if you can't handle me at my worst, <br> then you sure as hell don't deserve me at my best.”
+          </p>
+          <!-- <p><br class="ProseMirror-trailingBreak"></p> -->
+      </section>
+    </div>
+    
+    <p><br class="ProseMirror-trailingBreak"></p>
+    
+    <div class="downpdf">
+      <button class="downbutton">
+        <span>
+          <a href="/pdf/our course.pdf" target="_blank">
+              <span>
+                  start at just ₹
+                  9999 -> Download PDF here
+              </span>
+          </a>
+      </span>
+      </button>
+    </div>
+    
+    <p><br class="ProseMirror-trailingBreak"></p>
+    <p><br class="ProseMirror-trailingBreak"></p>
+    <p><br class="ProseMirror-trailingBreak"></p>
+
+  </section>
+  <p><br class="ProseMirror-trailingBreak"></p>  
+<!-- html of about -->
+
+<!-- html of contact -->
+  <!-- <section> -->
+   <div>
+      <h1 class="formfill">Fill Out the FORM To CONNECT</h1>
+   </div>
+   <p><br class="ProseMirror-trailingBreak"></p>
+   <div class="formdiv">
+     <button class="formbut">
+       <span>
+         <a href="https://forms.gle/LzwhBRHgtqxj5GEE6" target="_blank">
+           <span>
+             Click Here! FRIEND :)
+           </span>
+         </a>
+       </span>
+     </button>
+   </div>
+   <p><br class="ProseMirror-trailingBreak"></p>
+   <p><br class="ProseMirror-trailingBreak"></p>
+   <p><br class="ProseMirror-trailingBreak"></p>
+   <p><br class="ProseMirror-trailingBreak"></p>
+   <p><br class="ProseMirror-trailingBreak"></p>
+  <!-- </section> -->
+<!-- html of contact -->
+
+<!-- html of footer -->
+<section class="footshow">
+    <p><br class="ProseMirror-trailingBreak"></p>
+    <div>
+        <div class="copy">
+            <p class="copytext">
+                <b>No <i class="fa fa-copyright"></i> copyright Here.</b><br>
+                Feel free, If you <br> need any help,<br> ping me !
+            </p>
+        </div>
+        <div class="copy1">
+            <p class="copytext1">
+                Dinosaur Trade <br>
+                Made With INDIA!
+            </p>
+        </div>
+        <div class="copy2">
+            <p class="copytext2">
+                Make Sure To CONNECT Here?
+            </p>
+            <a class="linkoriginal" href="https://www.linkedin.com/in/kapil-vaishnav-09a3a71ba/" target="_blank" > <img class="linkimg" src="/img/linkedin.png" alt=""></a> &nbsp; 
+            <a class="twittoriginal" href="https://twitter.com/kapil__vaishnav" target="_blank" > <img class="twittimg" src="/img/twitter.png" alt=""></a> 
+        </div>
+    </div>
+    <p><br class="ProseMirror-trailingBreak"></p>
+    <img class="footsa" src="/img/footimage.gif" alt="foot">
+    <p><br class="ProseMirror-trailingBreak"></p>
+</section>
+<!-- html of footer -->
+
+
+
+</body>
+</html>
