@@ -8,9 +8,8 @@ I am an engineering student and studying electrical. Nowadays, I'm interested in
 ## Skills
 
 <p align='left'>
-  
-  <img src="https://w7.pngwing.com/pngs/580/809/png-transparent-data-structure-logo-brand-data-structure-blue-text-logo-thumbnail.png" alt="data" width="100" height="100"/>
-  <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/21/54dd30f05e11e59bf9d905b70dcbd9/cs161logo2.png?auto=format%2Ccompress&dpr=1" alt="algo" width="100" height="100"/>
+  <img src='https://img.search.brave.com/op7wFA7_GVRvfOoLIZCpSbON7122mUe01hSNxwY0eIo/rs:fit:775:775:1/g:ce/aHR0cHM6Ly9vbmxp/bmUuc3RhbmZvcmQu/ZWR1L3NpdGVzL2Rl/ZmF1bHQvZmlsZXMv/c3R5bGVzL2ZpZ3Vy/ZV9kZWZhdWx0L3B1/YmxpYy8yMDE4LTAz/L2VuZ2luZWVyaW5n/LWNvbXB1dGVyLXNj/aWVuY2UtYWxnb3Jp/dGhtcy1kZXNpZ24t/YW5hbHlzaXNfc29l/LXljc2FsZ29yaXRo/bXMucG5nP2l0b2s9/Wk5qN2Y0dTQ' height='100' width='auto' alts='algo'>
+   <img src='https://img.search.brave.com/X5tjlG77MKv76E-tjdKtzh7NEtFjIKqjNXjdOBcRU3A/rs:fit:984:984:1/g:ce/aHR0cHM6Ly93d3cu/aW50ZXJ2aWV3LXF1/ZXN0aW9uLWJhbmsu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE5LzA0L0lNR0JJ/Tl9kYXRhLXN0cnVj/dHVyZS1sb2dvLWJy/YW5kLXBuZ196akUy/RVZrUi5wbmc' height='100' width='auto' alts='data'>
   <img src='https://cdn.uconnectlabs.com/wp-content/uploads/sites/25/2020/04/J.png' height='100' width='auto' alt="js">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="html" width="100" height="100">
   <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png' alt="css" width="100" height="100">
